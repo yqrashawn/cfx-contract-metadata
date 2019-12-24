@@ -1,8 +1,8 @@
-# Ethereum Contract Metadata [![CircleCI](https://circleci.com/gh/MetaMask/eth-contract-metadata.svg?style=svg)](https://circleci.com/gh/MetaMask/eth-contract-metadata)
+# Conflux Contract Metadata [![CircleCI](https://circleci.com/gh/yqrashawn/cfx-contract-metadata.svg?style=svg)](https://circleci.com/gh/yqrashawn/cfx-contract-metadata)
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/MetaMask/eth-contract-metadata.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/MetaMask/cfx-contract-metadata.svg)](https://greenkeeper.io/)
 
-A mapping of checksummed ethereum addresses to metadata, like names, and images of those addresses' logos.
+A mapping of checksummed conflux addresses to metadata, like names, and images of those addresses' logos.
 
 All address keys follow the [EIP 55 address checksum format](https://github.com/ethereum/EIPs/issues/55).
 
@@ -10,10 +10,10 @@ Submit PRs to add valid logos, and obviously valid logos will be merged.
 
 ## Usage
 
-You can install from npm with `npm install eth-contract-metadata` and use it in your code like this:
+You can install from npm with `npm install cfx-contract-metadata` and use it in your code like this:
 
 ```javascript
-const contractMap = require('eth-contract-metadata')
+const contractMap = require('@yqrashawn/cfx-contract-metadata')
 const toChecksumAddress = require('ethereumjs-util').toChecksumAddress
 
 function imageElFor (address) {
