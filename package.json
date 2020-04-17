@@ -1,6 +1,6 @@
 {
   "name": "@yqrashawn/cfx-contract-metadata",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A mapping of conflux contract addresses to broadly accepted icons for those addresses.",
   "main": "index.js",
   "scripts": {
